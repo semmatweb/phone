@@ -1,0 +1,567 @@
+.black{
+    background-color: black;
+    
+}
+.rectangle{
+    width: 300px;
+    height: 90vh;
+    background-color: #0a0a0a;
+    border: 3px solid #0a0a0a;
+    position: fixed;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0px 0px 20px
+     white;
+}
+.second{
+    width: 288px;
+    height: 88vh;
+    background-color: white;
+    border: 3px solid black;
+    position: relative;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.third{
+    width: 80px;
+    height: 3px;
+    background-color: white;
+    border-style: inherit;
+    position: fixed;
+    left: 90px;
+    border: 1px solid black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    bottom: 100%;
+}
+.rectangle .second #img{
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background-attachment: fixed;
+}
+.circle{
+    width: 16px;
+    height: 16px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 100%;
+    position: fixed;
+    left: 125px;
+    bottom: 96%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle2{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+.slide{
+    width: 100px;
+    height: 4px;
+    background-color: lightgoldenrodyellow;
+    position: absolute;
+    top: 578px;
+    right: 80px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.volume{
+    width: 5px;
+
+    height: 80px;
+    background-color: black;
+    position: fixed;
+    left: 290px;
+    top: 120px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+button{
+    width: 40px;
+    height: 5px;
+    margin-left: 200px; 
+    transform: rotate(90deg);
+    position: absolute;
+    /* bottom: 0%; */
+    top: 45%;
+    right: 37.5%;
+    background-color: black;
+    border: 2px solid transparent;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    /* transition: 1s is all; */
+}
+.powers{
+    width: 288px;
+    height: 88vh;
+    background-color: black;
+    position: fixed;
+    rotate: 90deg;
+    top: -123px;
+    right: -155px;
+    display: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    /* transition-delay: 4s all; */
+    
+}
+#button1{
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 15px;
+    top: 0.5px;
+}
+.gmail{
+    width: 284px;
+    height: 550px;
+    background-color: white;
+    position: absolute;
+    rotate: 270deg;
+    top: -376px;
+    left: -180px;
+    display: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+}
+.gmail img{
+    margin-bottom: 190px;
+    margin-top: 230px;
+}
+#button2{
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 74px;
+    top: 0.5px;
+}
+#button3{
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 134px;
+    top: 0.5px;
+}
+.twitter{
+    width: 284px;
+    height: 550px;
+    background-color: #2CA9E1;
+    position: absolute;
+    rotate: 270deg;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    display: none;
+    top: -257px;
+    right: -84px;
+}
+#button4{
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 5px;
+    right: 70px;
+}
+#button5{
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 5px;
+    left: 86%;
+}
+#button6{
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 160px;
+    right: 240px;
+}
+#button7{
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 160px;
+    right: 190px;
+}
+#button8{
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 160px;
+    right: 72px;
+}
+#button9{
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 160px;
+    right: 16px;
+}
+#button10{
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 132px;
+    top: 163px;
+}
+#button11{
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 132px;
+    top: 163px;
+}
+.steam{
+    width: 284px;
+    height: 545px;
+    background-color: #0C1C45;
+    position: absolute;
+    rotate: 270deg;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    display: none;
+    bottom: -323px;
+    left: -187px;
+} 
+.facebook{
+    width: 284px;
+    height: 550px;
+    background-color: white;
+    position: absolute;
+    rotate: 270deg;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    top: -318px;
+    right: -84px;
+    display: none;
+}
+.kuda{
+    width: 284px;
+    height: 550px;
+    background-color: #42276C;
+    position: absolute;
+    rotate: 270deg;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    top: -149px;
+    right: -76px;
+    display: none;
+}
+.phone{
+    width: 284px;
+    height: 550px;
+    background-color: white;
+    position: absolute;
+    rotate: 270deg;
+    top: -373px;
+    left: -342px;
+    display: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.messages{
+    width: 284px;
+    height: 550px;
+    background-color: #3785EC;
+    position: absolute;
+    rotate: 270deg;
+    top: -325px;
+    left: -342px;
+    display: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.settings{
+    width: 284px;
+    height: 545px;
+    background-color: white;
+    position: absolute;
+    rotate: 270deg;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    display: none;
+    bottom: -320px;
+    left: -340px;
+}
+.chrome{
+    width: 284px;
+    height: 550px;
+    background-color: white;
+    position: absolute;
+    rotate: 270deg;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    top: -150px;
+    right: 80px;
+    display: none;
+}
+.apps{
+    width: 284px;
+    height: 550px;
+    background-color: burlywood;
+    position: absolute;
+    rotate: 270deg;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    display: none;
+    top: -260px;
+    right: 82px;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+
+}
+.chrome img{
+    margin-bottom: 190px;
+    margin-top: 230px;
+}
+.settings img{
+    margin-bottom: 190px;
+    margin-top: 230px;
+}
+.messages img{
+    margin-bottom: 190px;
+    margin-top: 230px;
+}
+.phone img{
+    margin-bottom: 190px;
+    margin-top: 230px;
+}
+.kuda img{
+    margin-bottom: 190px;
+    margin-top: 230px;
+}
+.steam img{
+    margin-bottom: 190px;
+    margin-top: 230px;
+}
+.twitter img{
+    margin-bottom: 190px;
+    margin-top: 230px;
+}
+.facebook img{
+    margin-bottom: 190px;
+    margin-top: 230px;
+}
+button:focus .powers{
+    display: inherit;
+    position: absolute;
+    /* transition-delay: 4s all; */
+}
+#button1:focus .gmail{
+    display: inherit;
+}
+#button2:focus .facebook{
+    display: inherit;
+    /* position: absolute; */
+}
+#button3:focus .twitter{
+    display: inherit;
+}
+#button4:focus .steam{
+    display: inherit;
+}
+#button5:focus .kuda{
+    display: inherit;
+}
+#button6:focus .phone{
+    display: inherit;
+}
+#button7:focus .messages{
+    display: inherit;
+}
+#button8:focus .settings{
+    display: inherit;
+}
+#button9:focus .chrome{
+    display: inherit;
+}
+#button10:focus .apps{
+    display: inherit;
+}
+.co{
+
+    align-items: center;
+    justify-content: space-around;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+    height: 60px;
+    position: absolute;
+    bottom: 32%;
+    left: 2px;
+    /* overflow-x: scroll; */
+}
+.co img{
+    border-radius: 100%;
+    /* position: absolute; */
+    /* background-color: #0a0a0a; */
+    width: 32px;
+    height: 32px;
+    /* padding: 0px; */
+}
+.search #searchid{
+   /* display: flex; */
+   height: 35px;
+   outline: none;
+   width: 175px;
+   align-items: center;
+   justify-content: center;
+   /* padding-right: 5px; */
+   padding-left: 5px;
+   border: transparent;
+   background-color: #0a0a0a;
+}
+.search{
+    border: 1px solid black;
+    width: 100%;
+    margin: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #0a0a0a;
+}
+.search i{
+    padding-left: 2%;
+}
+.search #searchid, i{
+    color: white;
+    border: transparent;
+}
+.bottom{
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    /* position: static; */
+    top: 10%;
+    height: 60px;
+    background-color: transparent;
+    
+}
+.bottom .bx3{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background-color: white;
+    bottom: 50px;
+    margin-bottom: 30px;
+}
+.bx3:focus{
+    width: 50px;
+}
+
+.bottom .bx3 i{
+    color: black;
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 47%;
+    top: 167px;
+    color: transparent;
+}
+
+.imgg{
+    width: 15px;
+    height: 15px;
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+}
+.appss{
+    align-items: center;
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    background-color: grey;
+    padding: 5px;
+    height: 550px;
+    padding-right: 10px;
+    position: absolute;
+    bottom: 0%;
+    left: 0px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow-y:hidden;
+}
+.appss .img{
+    border-radius: 100%;
+    /* position: absolute; */
+    /* background-color: #0a0a0a; */
+    width: 32px;
+    height: 32px;
+    /* padding: 0px; */
+}
+/* @media(min-width: 360px) {
+    
+    .powers{
+        width: 288px;
+        position: absolute;
+        top: -290px;
+        left: -95px;
+    }
+    
+} */
